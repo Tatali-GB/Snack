@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNACK</title>
+  <link rel="stylesheet" href="nacozinha.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="Imagens/Logo Branca Sem Texto.png">
+  </header>
+  <!--Navegação-->
+  <nav>
+    <a href="snack.html">Início</a>
+    <a href="premium.html">Premium</a>
+    <a href="videoaulas.html">VideoAulas</a>
+    <a href="#">Na Cozinha </a>
+    <a href="sobrenos.html">Sobre Nós</a>
+    <a href="chats.html">Mensagens</a>
+    <div class="botões">
+      <a class="perfil" href="perfil.html"><img src="Imagens/Perfil.png" width="20px"></a>
+      <a class="perfil" href="#"><img src="Imagens/conf.png" width="25px"></a>
+    </div>
+  </nav>
+  <main>
+    <!--Caixa de Pesquisa-->
+    <div class="pesquisar">
+      <input class="pesquisinha" type="text" placeholder="Pesquisar">
+    </div>
+    <h2>Adicione sua Receita</h2>
+    <section class="tudoo">
+      <section class="add">
+        <img class="adds" src="Imagens/Add.png" alt="adicionar">
+        <label for="foto">Adicione Fotos:</label>
+        <input class="mais" type="file" id="foto">
+        <img class="adds1" src="Imagens/Add.png">
+        <label class="video" for="vd">Adicione um Video:</label>
+        <input type="file" id="vd" required>
+      </section>
+      <form action="#" method="post">
+        <h3>Informações Tecnicas:</h3>
+        <label for="nome">Nome da Receita:</label>
+        <input class="postando" type="text" id="nome" placeholder="Adicione o nome da sua receita">
+        <label for="temp">Tempo de Duração</label>
+        <input class="postando" type="time">
+        <label for="descr">Descrição:</label>
+        <textarea name="descr" id="descr"></textarea>
+        <h3>Informações Complementares:</h3>
+        <textarea class="inf" name="restr" id="restr" placeholder="Possui alguma restrição? Alguma recomendação de publico?"></textarea>
+        <h3>Produção:</h3>
+        <label for="prd">Ingredientes:</label>
+        <textarea class="prd" name="prd" id="prd"></textarea>
+        <label for="prd">Modo de preparo:</label>
+        <textarea class="prd" name="prd" id="prd"></textarea>
+    </section>
+</body>
+<footer>
+  <div class="client">
+    <h5>ATENDIMENTO AO CLIENTE</h5>
+    <a href="#">Central de Ajuda</a>
+    <a href="#">Como Publicar</a>
+    <a href="#">Fale Conosco</a>
+    <a href="#">Preferências de cookies</a>
+  </div>
+  <div class="sobre">
+    <h5>SOBRE O SNACK</h5>
+    <a href="#">Sobre Nós</a>
+    <a href="#">Políticas Snack</a>
+    <a href="#">Política de Privacidade</a>
+    <a href="#">Programa de Afiliados do Snack</a>
+    <a href="#">Seja um Chef Snack</a>
+    <a href="#">Snack Blog</a>
+  </div>
+  <div>
+    <h5>SIGA-NOS</h5>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">Whatsapp</a>
+    <a href="#">Facebook</a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <div>
+    <h5>BAIXAR APP SNACK</h5>
+    <img src="Imagens/qr.png">
+  </div>
+</footer>

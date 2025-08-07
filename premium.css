@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Afacad", sans-serif;
+}
+header {
+  background-color: #eb742a;
+  height: 60px;
+}
+.afacad-uniquifier {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: medium 500;
+}
+.logo {
+  width: 95px;
+  padding: 5px;
+  margin-left: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: #f4711f;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-weight: 600;
+  font-size: 18px;
+}
+nav > a:hover {
+  background-color: #fffdfc;
+  padding: 1px;
+  transition: 0.4s;
+}
+nav {
+  background-color: #ffc29c;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.perfil {
+  margin-left: 15px;
+}
+.botões {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.block {
+  text-align: center;
+  margin-top: 150px;
+}
+.block > img {
+  width: 200px;
+}
+button {
+  width: 150px;
+  border-radius: 15px;
+  background-color: #ff9c5f;
+  border: none;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #ffcdae;
+}
+footer > div > a,
+h5 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faac7b;
+  height: 300px;
+  padding-top: 20px;
+  margin-top: 200px;
+}
+footer > div > a:hover {
+  text-decoration: underline;
+  color: #9c4b00;
+}
+body {
+  background-color: #ffece1;
+}

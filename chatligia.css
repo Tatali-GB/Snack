@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.afacad-uniquifier {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: medium 500;
+}
+.botão {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #ffdecd;
+  border: solid #ffe1ce;
+  border-radius: 10px;
+  width: 60px;
+}
+body {
+  height: 100%;
+  max-width: 100%;
+  background-color: #ffece1;
+}
+.perfil {
+  width: 70px;
+  padding: 5px;
+  margin-left: 15px;
+  float: right;
+  margin-left: 50px;
+}
+header {
+  background-color: #eb742a;
+  height: 60px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.pdireito {
+  background-color: #f5cfb3;
+  width: 40%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  font-size: 18px;
+  margin: 10px;
+  margin-left: 50%;
+  border-radius: 15px;
+}
+.pesquerdo {
+  background-color: #c89880;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 15px;
+}
+main {
+  margin: auto;
+  width: 60%;
+  margin-top: 20px;
+}
+.mensagem {
+  width: 90%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #fcac7b;
+}
+h2 {
+  font-family: "Afacad", sans-serif;
+}
+.icones {
+  width: 15%;
+  padding: 25%;
+}
+.telefone {
+  padding: 1%;
+}
+.ligação {
+  padding: 1%;
+}

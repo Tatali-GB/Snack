@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Afacad", sans-serif;
+}
+.afacad-uniquifier {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: medium 500;
+}
+header {
+  background-color: #eb742a;
+  height: 60px;
+}
+.logo {
+  width: 95px;
+  padding: 5px;
+  margin-left: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: #f4711f;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-family: "Afacad", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+nav > a:hover {
+  background-color: #fffdfc;
+  padding: 1px;
+  transition: 0.4s;
+}
+nav {
+  background-color: #ffc29c;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+main {
+  background-color: #ffece1;
+  padding-top: 10px;
+}
+.pesquisinha {
+  width: 600px;
+  height: 27px;
+  margin: auto;
+  border: solid #ffc49f 2px;
+  background: #fbd5be;
+  border-radius: 15px;
+  padding: 2px;
+  padding-left: 8px;
+}
+.pesquisar {
+  display: flex;
+  margin-top: 10px;
+}
+footer > div > a,
+h5 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faac7b;
+  height: 300px;
+  padding-top: 20px;
+}
+footer > div > a:hover {
+  text-decoration: underline;
+  color: #9c4b00;
+}
+.perfil {
+  margin-left: 15px;
+}
+.botões {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.add {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.adds {
+  width: 500px;
+}
+main > h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.mais {
+  width: 270px;
+  border-radius: 5px;
+  height: 22px;
+  background-color: #ffc29c;
+}
+.postando,
+label {
+  display: block;
+}
+.postando {
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fed9c1;
+  padding-left: 10px;
+}
+textarea {
+  width: 495px;
+  height: 100px;
+  background-color: #fed9c1;
+  padding: 7px;
+  border: none;
+}
+.tudoo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.tudoo > form {
+  margin-left: 50px;
+}
+.inf {
+  height: 50px;
+}
+.prd {
+  height: 150px;
+}
+.adds1 {
+  width: 500px;
+  height: 250px;
+  margin-top: 50px;
+}

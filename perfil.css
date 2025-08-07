@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffece1;
+}
+header {
+  background-color: #eb742a;
+  height: 60px;
+}
+.logo {
+  width: 95px;
+  padding: 5px;
+  margin-left: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: #f4711f;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-family: "Afacad", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+nav > a:hover {
+  background-color: #fffdfc;
+  padding: 1px;
+  transition: 0.4s;
+}
+nav {
+  background-color: #ffc29c;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.perfill {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.botões {
+  display: flex;
+  align-items: center;
+}
+.perfil {
+  padding: 24px;
+  display: flex;
+}
+.bio > h1,
+h3,
+h5 {
+  margin-bottom: 15px;
+}
+.nms {
+  display: flex;
+  cursor: pointer;
+}
+.nms > h4 {
+  margin-left: 20px;
+}
+.foto {
+  border-radius: 150px;
+  border: 3px solid #000000;
+  cursor: pointer;
+}
+div {
+  font-family: "Afacad", sans-serif;
+  margin: 10px;
+}
+button {
+  background-color: #ff4501;
+  border: none;
+  padding: 16px;
+  width: 80%;
+  height: 30%;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cd4514;
+}
+hr {
+  border: 1px solid #6d6b69;
+}
+.icone {
+  margin: 10px;
+  text-align: center;
+}
+.ft {
+  border-radius: 150%;
+}
+.fileira {
+  margin: 10px;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+.comida1 {
+  margin-right: 40px;
+}
+.comida2 {
+  margin-right: 40px;
+}
+footer > div > a,
+h5 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faac7b;
+  height: 300px;
+  padding-top: 20px;
+  margin-top: 200px;
+}
+footer > div > a:hover {
+  text-decoration: underline;
+  color: #9c4b00;
+}

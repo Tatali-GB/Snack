@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Afacad", sans-serif;
+}
+.afacad-uniquifier {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: medium 500;
+}
+header {
+  background-color: #eb742a;
+  height: 60px;
+}
+.logo {
+  width: 95px;
+  padding: 5px;
+  margin-left: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: #f4711f;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-family: "Afacad", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+nav > a:hover {
+  background-color: #fffdfc;
+  padding: 1px;
+  transition: 0.4s;
+}
+nav {
+  background-color: #ffc29c;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.pessoas {
+  width: 40px;
+}
+.receitas {
+  width: 470px;
+}
+.postagem {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.postagem > h4 {
+  margin-left: 14px;
+}
+.postagem00 {
+  width: 470px;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+.postagem00 > p {
+  margin-left: 10px;
+}
+main {
+  background-color: #ffece1;
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+.fileira {
+  display: flex;
+}
+input {
+  width: 600px;
+  height: 27px;
+  margin: auto;
+  border: solid #ffc49f 2px;
+  background: #fbd5be;
+  border-radius: 15px;
+  padding: 2px;
+  padding-left: 8px;
+}
+.pesquisar {
+  display: flex;
+  margin-top: 10px;
+}
+footer > div > a,
+h5 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faac7b;
+  height: 300px;
+  padding-top: 20px;
+}
+footer > div > a:hover {
+  text-decoration: underline;
+  color: #9c4b00;
+}
+button {
+  width: 300px;
+  height: 30px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: solid #ffc49f 2px;
+  background: #fbd5be;
+  border-radius: 15px;
+}
+button:hover {
+  border: solid #f89a60 2px;
+  background: #fdaf7e;
+}
+button > a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-family: "Afacad", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.perfil {
+  margin-left: 15px;
+}
+.botões {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.premium {
+  margin-left: 10px;
+}
