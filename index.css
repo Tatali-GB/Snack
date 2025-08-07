@@ -1,5 +1,5 @@
 body {
-  background-image: url(imagens/Imagens_maria/Fundo.png);
+  background-image: url(imagens/imagens_maria/Fundo.png);
 }
 .container {
   display: flex;
@@ -7,3 +7,4 @@ body {
   align-items: center;
   height: 80vh;
 }
+
