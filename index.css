@@ -1,0 +1,9 @@
+body {
+  background-image: url(imagens/Imagens_maria/Fundo.png);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
